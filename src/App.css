@@ -2,37 +2,73 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input{
+  font-family: 'Quicksand', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.search-box{
+  width: 100%;
+  margin: 0 0 75px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.search-box .search-bar {
+  display: block;
+  padding: 15px;
+  width: 100%;
+
+  appearance: none;
+  border: none;
+  outline: none;
+
+  background: rgba(255, 255, 255, 0.5) none;
+  border-radius: 16px 16px 16px 16px;
+  font-color: darkcyan;
+
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+  font-size: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+.search-box .search-bar:focus {
+  background: rgba(255, 255, 255, 0.75) none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.information-box .location{
+  text-align: center;
+  font-size: 45px;
+  color: azure;
+  text-shadow: 3px 3px rgba(100, 100, 200 , 0.5);
 }
+
+.information-box .date{
+  text-align: center;
+  font-size: 30px;
+  color: azure;
+  text-shadow: 3px 3px rgba(100, 100, 200 , 0.5);
+}
+
+.weather-box {
+  text-align: center;
+}
+
+.weather-box .temp {
+  font-size: 200px;
+  color: azure;
+  text-shadow: 3px 3px rgba(100, 100, 200 , 0.5);
+
+  background-color: rgba(255, 255, 255, 0.4);
+  position: relative;
+  display: inline-block;
+  margin: 30px auto;
+
+  border-radius: 15px;
+  padding: 5px 30px;
+  text-align: center;
+}
+
+.weather-box .weather-cur {
+  font-size: 50px;
+  color: azure;
+  text-shadow: 3px 3px rgba(100, 100, 200 , 0.5);
+  text-align: center;
+}
+
