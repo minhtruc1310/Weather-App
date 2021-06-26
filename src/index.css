@@ -17,7 +17,7 @@ body {
 }
 
 .App.warm{
-  background-image: url('./assets/warm.jpg');
+  background-image: url('./assets/sunrise.jpg');
   background-position: center; /* Center the image */
 }
 

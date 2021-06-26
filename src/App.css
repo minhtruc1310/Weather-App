@@ -51,7 +51,7 @@ input{
 }
 
 .weather-box .temp {
-  font-size: 200px;
+  font-size: 125px;
   color: azure;
   text-shadow: 3px 3px rgba(100, 100, 200 , 0.5);
 
@@ -66,7 +66,7 @@ input{
 }
 
 .weather-box .weather-cur {
-  font-size: 50px;
+  font-size: 30px;
   color: azure;
   text-shadow: 3px 3px rgba(100, 100, 200 , 0.5);
   text-align: center;
